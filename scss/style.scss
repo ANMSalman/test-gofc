@@ -1,0 +1,342 @@
+// @import "~bootstrap/scss/bootstrap";
+// body {
+//   background-color: rebeccapurple;
+// }
+
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500&family=Roboto+Condensed:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap");
+
+body {
+  // font-family: "Oswald", sans-serif;
+  font-family: "Roboto", sans-serif;
+  // font-family: "Roboto Condensed", sans-serif;
+}
+
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+  max-width: 768px;
+  // width: 768px !important;
+}
+.navbar-light .navbar-toggler {
+  border: none;
+}
+.navbar-brand {
+  font-size: 14px;
+  font-weight: 900;
+  font-family: "Oswald", sans-serif;
+}
+.custom-toggler-icon {
+  img {
+    width: 30px;
+    height: 30px;
+  }
+}
+.section {
+  margin-bottom: 20px;
+}
+.section-carousel-banner {
+  // margin-top: -14px;
+}
+.hero-banner {
+  padding: 15px 15px 5px 5px;
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  background-color: #c80909;
+  text-emphasis: 10px;
+  // margin-top: 20px;
+  text-align: right;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.title-2 {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+}
+
+.carousel-indicators {
+  bottom: -50px;
+  li {
+    background-color: #c80909;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+  }
+}
+
+.wrap-card {
+  // padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  .store-galary {
+    // background-color: #c80909;
+    // padding: 20px 8px 25px 8px;
+    width: auto;
+    margin: 0 5px;
+    .card-cody {
+      position: relative;
+      img {
+        flex-basis: 200px;
+        max-width:  200px;
+        max-height:  200px;
+        height:  200px;
+      }
+    }
+  }
+}
+
+.page-food-drinks {
+  .banner-fdrinks {
+    .hero-fdrinks {
+      display: flex;
+      .logo {
+        z-index: 99;
+        width: 50%;
+        height: 50%;
+      }
+      .ovel {
+        width: auto;
+        margin-left: -30px;
+      }
+    }
+  }
+}
+.section-stock {
+  .card {
+    border: none;
+    .card-body {
+      padding: 0;
+      img {
+        max-height: 180px;
+        border-radius: 5px;
+      }
+      .card-title {
+        margin-top: 5px;
+        font-size: 13px;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+      .price-tag {
+        color: #c80909;
+        font-weight: bold;
+        font-size: 18px;
+        margin-top: -10px;
+      }
+    }
+  }
+}
+.btn-primary {
+  background-color: #c80909;
+  border: none;
+  :focus {
+    background-color: #c80909;
+  }
+}
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle {
+  background-color: #c80909;
+}
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+  background-color: #c80909;
+}
+.btn-primary.focus, .btn-primary:focus {
+  background-color: #c80909;
+}
+.section-instore {
+  margin-top: 30px;
+  .bnr-instore {
+    display: flex;
+    background-color: #c80909;
+    letter-spacing: 3px;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #ffffff;
+    width: 60%;
+    padding: 10px;
+    .icon {
+      width: 30px;
+      margin-right: 14px;
+    }
+  }
+}
+
+.page1 {
+  background-image: url("../images/CityLights.jpg");
+  background-color: black;
+  background-position: top;
+  // background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  .navbar-toggler {
+    a {
+      color: #ffffff;
+    }
+  }
+  .overlay {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+  }
+}
+.bnr-welcome {
+  // margin-left: 50px;
+  padding: 30px 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  .hero-title {
+    font-size: 26px;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin-top: -5px;
+  }
+  .hero-sub-title {
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+  .logo-reword {
+    img {
+      width: 150px;
+    }
+  }
+}
+.red-box {
+  background-color: #c80909;
+  padding: 25px;
+  margin: auto;
+  text-align: center;
+  margin: 15px 30px;
+  border-radius: 5px;
+}
+
+.red-box2 {
+  background-color: #c80909;
+  padding: 15px;
+  margin: auto;
+  text-align: center;
+  margin: 15px 0px;
+}
+.title-4 {
+  font-size: 18px;
+  color: #ffffff;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.discribe {
+  font-size: 18px;
+  letter-spacing: 2px;
+  margin-top: 14px;
+  font-weight: 600;
+  color: rgb(37, 37, 37);
+}
+
+.account {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  cursor: pointer;
+  .icon {
+    img {
+      margin: auto;
+      margin-top: -7px;
+    }
+  }
+  .card-title {
+    display: flex;
+    // justify-content: space-between;
+    font-size: 18px;
+    color: #777;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    .acc-no {
+      margin-left: 10px;
+    }
+  }
+  .acc-detail {
+    font-family: "Oswald", sans-serif;
+    .ammount {
+      float: right;
+    }
+  }
+  &:hover {
+    background-color: #c80909;
+    .card-title,
+    .acc-detail {
+      color: #ffffff;
+    }
+  }
+  &:focus {
+    background-color: #c80909;
+    .card-title,
+    .acc-detail {
+      color: #ffffff;
+    }
+  }
+}
+
+.proceed {
+  max-width: 400px;
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: #ffffff;
+  border: none;
+  color: #000;
+}
+.proceed-black {
+  max-width: 400px;
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: #c80909;
+  border: none;
+  color: #ffffff;
+}
+
+.modal-dialog.modal-sm {
+  max-width: 300px;
+  margin: auto;
+  margin-top: 60px;
+  .close {
+    display: none;
+  }
+  .modal-content {
+    border: none;
+    .modal-title {
+      text-align: center;
+      font-size: 18px;
+      letter-spacing: 2px;
+      font-weight: bold;
+      font-family: "Oswald", sans-serif;
+    }
+    .modal-body {
+      text-align: center;
+      font-size: 16px;
+      letter-spacing: 2px;
+      font-family: "Oswald", sans-serif;
+      border: none;
+    }
+  }
+}
+
+.section-image-group {
+  .card {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+}
+.button {
+  cursor: pointer;
+}
