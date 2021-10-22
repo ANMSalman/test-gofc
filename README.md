@@ -1,2 +1,0 @@
-# PokitPal-GOFC-Challenge
-
