@@ -159,11 +159,11 @@
 
   <script>
     const getOffers = async () => {
-      const offersResponse = await fetch('https://localhost:5001/api/Offers/picked-for-user');
+      const offersResponse = await fetch('https://pp-stage-web.azurewebsites.net/api/Offers/picked-for-user');
       const offersJson = await offersResponse.json();
 
 
-      const bannersResponse = await fetch('https://localhost:5001/api/Banners/picked-for-user');
+      const bannersResponse = await fetch('https://pp-stage-web.azurewebsites.net/api/Banners/picked-for-user');
       const bannersJson = await bannersResponse.json();
 
       var bannerHtml = ""

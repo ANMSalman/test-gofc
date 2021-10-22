@@ -8,7 +8,7 @@
     function redirect() {
        var url = window.location.href;
        var newUrl = url.replace('#','?');
-       var newUrl = newUrl.replace(window.location.origin+window.location.pathname,'https://localhost:5001/v1/nab/callback');
+       var newUrl = newUrl.replace(window.location.origin+window.location.pathname,'https://pp-stage-web.azurewebsites.net/v1/nab/callback');
        window.location.href = newUrl;
     }
 </script>

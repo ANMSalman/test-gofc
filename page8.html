@@ -94,7 +94,7 @@
     -->
   <script>
     const getTransactions = async () => {
-      const response = await fetch('https://localhost:5001/v1/nab/user-account-transactions');
+      const response = await fetch('https://pp-stage-web.azurewebsites.net/v1/nab/user-account-transactions');
       const data = await response.json();
 
 
