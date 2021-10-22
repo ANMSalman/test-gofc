@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="Group_1283" data-name="Group 1283" transform="translate(-174 -383)">
+    <path id="Path_3637" data-name="Path 3637" d="M25,0A25,25,0,1,1,0,25,25,25,0,0,1,25,0Z" transform="translate(174 383)" fill="rgba(39,170,225,0.1)"/>
+    <g id="phone" transform="translate(82.08 397)">
+      <g id="Group_1193" data-name="Group 1193" transform="translate(110.92)">
+        <g id="Group_1192" data-name="Group 1192" transform="translate(0)">
+          <path id="Path_3783" data-name="Path 3783" d="M121.685,0H112.2a1.282,1.282,0,0,0-1.281,1.281v.845h12.046V1.281A1.282,1.282,0,0,0,121.685,0Zm-2.971,1.771h-3.543a.354.354,0,0,1,0-.709h3.543a.354.354,0,1,1,0,.709Zm2.48,0h-.354a.354.354,0,0,1,0-.709h.354a.354.354,0,0,1,0,.709Z" transform="translate(-110.92)" fill="#27aae1"/>
+        </g>
+      </g>
+      <g id="Group_1195" data-name="Group 1195" transform="translate(116.235 18.777)">
+        <g id="Group_1194" data-name="Group 1194" transform="translate(0)">
+          <path id="Path_3784" data-name="Path 3784" d="M240.078,452.267h-.88a.269.269,0,0,0-.269.269v.171a.269.269,0,0,0,.269.269h.88a.269.269,0,0,0,.269-.269v-.171A.269.269,0,0,0,240.078,452.267Z" transform="translate(-238.929 -452.267)" fill="#27aae1"/>
+        </g>
+      </g>
+      <g id="Group_1197" data-name="Group 1197" transform="translate(110.921 2.834)">
+        <g id="Group_1196" data-name="Group 1196">
+          <rect id="Rectangle_1708" data-name="Rectangle 1708" width="12.045" height="14.171" fill="#27aae1"/>
+        </g>
+      </g>
+      <g id="Group_1199" data-name="Group 1199" transform="translate(110.921 17.714)">
+        <g id="Group_1198" data-name="Group 1198">
+          <path id="Path_3785" data-name="Path 3785" d="M110.938,426.667v2.262a1.282,1.282,0,0,0,1.281,1.281H121.7a1.282,1.282,0,0,0,1.281-1.281v-2.262Zm7.44,1.5a.978.978,0,0,1-.977.977h-.88a.978.978,0,0,1-.977-.977V428a.979.979,0,0,1,.977-.977h.88a.978.978,0,0,1,.977.977Z" transform="translate(-110.938 -426.667)" fill="#27aae1"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

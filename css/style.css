@@ -1,0 +1,479 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500&family=Roboto+Condensed:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap");
+/* line 3, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* line 7, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+  max-width: 768px;
+}
+
+/* line 14, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.navbar-light .navbar-toggler {
+  border: none;
+}
+
+/* line 17, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.navbar-brand {
+  font-size: 14px;
+  font-weight: 900;
+  font-family: "Oswald", sans-serif;
+}
+
+/* line 23, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.custom-toggler-icon img {
+  width: 30px;
+  height: 30px;
+}
+
+/* line 28, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.section {
+  margin-bottom: 30px;
+}
+
+/* line 31, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.hero-banner {
+  padding: 15px 15px 5px 5px;
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  background-color: #c80909;
+  text-emphasis: 10px;
+  text-align: right;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+/* line 45, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.title-2 {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 1px;
+}
+
+/* line 53, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.carousel-indicators {
+  bottom: -50px;
+}
+
+/* line 55, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.carousel-indicators li {
+  background-color: #c80909;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+/* line 63, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.wrap-card {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 66, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.wrap-card .store-galary {
+  width: auto;
+  margin: 0 5px;
+}
+
+/* line 69, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.wrap-card .store-galary .card-cody {
+  position: relative;
+}
+
+/* line 71, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.wrap-card .store-galary .card-cody img {
+  flex-basis: 180px;
+  max-width: 180px;
+  max-height: 180px;
+  height: 180px;
+}
+
+/* line 81, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.page-food-drinks {
+  height: auto;
+}
+
+/* line 83, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.page-food-drinks .banner-fdrinks {
+  background-image: url("../images/pablo-detail.jpg");
+  background-color: black;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 707px;
+  margin-top: 20px;
+}
+
+/* line 95, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.section-stock .card {
+  border: none;
+}
+
+/* line 97, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.section-stock .card .card-body {
+  padding: 0;
+}
+
+/* line 99, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.section-stock .card .card-body img {
+  max-height: 180px;
+  border-radius: 5px;
+}
+
+/* line 103, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.section-stock .card .card-body .card-title {
+  margin-top: 5px;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* line 109, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.section-stock .card .card-body .price-tag {
+  color: #c80909;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: -10px;
+}
+
+/* line 118, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.btn-primary {
+  background-color: #c80909;
+  border: none;
+}
+
+/* line 121, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.btn-primary :focus {
+  background-color: #c80909;
+}
+
+/* line 125, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle {
+  background-color: #c80909;
+}
+
+/* line 130, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  background-color: #c80909;
+}
+
+/* line 135, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.btn-primary.focus,
+.btn-primary:focus {
+  background-color: #c80909;
+}
+
+/* line 139, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.section-instore {
+  margin-top: 30px;
+}
+
+/* line 141, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.section-instore .bnr-instore {
+  display: flex;
+  background-color: #c80909;
+  letter-spacing: 3px;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #ffffff;
+  width: 60%;
+  padding: 10px;
+}
+
+/* line 151, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.section-instore .bnr-instore .icon {
+  width: 30px;
+  margin-right: 14px;
+}
+
+/* line 158, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.page1 {
+  background-image: url("../images/CityLights.jpg");
+  background-color: black;
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+/* line 165, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.page1 .navbar-toggler a {
+  color: #ffffff;
+}
+
+/* line 169, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.page1 .overlay {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  opacity: 0.8;
+}
+
+/* line 176, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.bnr-welcome {
+  padding: 30px 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+/* line 182, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.bnr-welcome .hero-sub-title {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+/* line 187, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.bnr-welcome .logo-reword img {
+  width: 150px;
+}
+
+/* line 192, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.hero-title {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  letter-spacing: 3px;
+  margin-top: -5px;
+}
+
+/* line 200, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.hero-title2 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  letter-spacing: 3px;
+  margin-top: -5px;
+}
+
+/* line 208, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.cashback {
+  font-weight: 200;
+  font-size: 18px;
+}
+
+/* line 212, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.red-box {
+  background-color: #c80909;
+  padding: 25px;
+  margin: auto;
+  text-align: center;
+  margin: 15px 30px;
+  border-radius: 5px;
+}
+
+/* line 221, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.red-box2 {
+  background-color: #c80909;
+  padding: 15px;
+  margin: auto;
+  text-align: center;
+  margin: 15px 0px;
+}
+
+/* line 228, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.title-4 {
+  font-size: 18px;
+  color: #ffffff;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* line 236, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.discribe {
+  font-size: 18px;
+  letter-spacing: 2px;
+  margin-top: 14px;
+  font-weight: 600;
+  color: #252525;
+}
+
+/* line 244, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.account {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  cursor: pointer;
+}
+
+/* line 248, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.account .icon img {
+  margin: auto;
+  margin-top: -7px;
+}
+
+/* line 253, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.account .card-title {
+  display: flex;
+  font-size: 18px;
+  color: #777;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+/* line 260, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.account .card-title .acc-no {
+  margin-left: 10px;
+}
+
+/* line 264, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.account .acc-detail {
+  font-family: "Oswald", sans-serif;
+}
+
+/* line 266, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.account .acc-detail .ammount {
+  float: right;
+}
+
+/* line 270, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.account:hover {
+  background-color: #c80909;
+}
+
+/* line 272, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.account:hover .card-title,
+.account:hover .acc-detail {
+  color: #ffffff;
+}
+
+/* line 277, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.account:focus {
+  background-color: #c80909;
+}
+
+/* line 279, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.account:focus .card-title,
+.account:focus .acc-detail {
+  color: #ffffff;
+}
+
+/* line 286, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.proceed {
+  max-width: 400px;
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: #ffffff;
+  border: none;
+  color: #000;
+}
+
+/* line 295, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.proceed-black {
+  max-width: 400px;
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: #c80909;
+  border: none;
+  color: #ffffff;
+}
+
+/* line 305, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.modal-dialog.modal-sm {
+  max-width: 300px;
+  margin: auto;
+  margin-top: 60px;
+}
+
+/* line 309, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.modal-dialog.modal-sm .close {
+  display: none;
+}
+
+/* line 312, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.modal-dialog.modal-sm .modal-content {
+  border: none;
+}
+
+/* line 314, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.modal-dialog.modal-sm .modal-content .modal-title {
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-family: "Oswald", sans-serif;
+}
+
+/* line 321, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.modal-dialog.modal-sm .modal-content .modal-body {
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-family: "Oswald", sans-serif;
+  border: none;
+}
+
+/* line 332, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.section-image-group .card {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* line 336, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.button {
+  cursor: pointer;
+}
+
+/* line 341, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.section-item-largegroup .grid-choose-sub {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(5rem, 1fr));
+  margin: auto;
+}
+
+/* line 346, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.section-item-largegroup .grid-choose-sub .item {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* line 349, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.section-item-largegroup .grid-choose-sub .item img {
+  width: 50px;
+  margin: auto;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+
+/* line 360, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.text {
+  font-size: 12px !important;
+}
+
+/* line 363, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.congradulations {
+  margin: 30;
+}
+
+/* line 365, ../../Pokitpal/pokitpal-gofc-challenge/scss/style.scss */
+.congradulations .wrap-card-cong {
+  padding: 36px;
+  background: #c80909;
+  background: radial-gradient(circle, #c80909 0%, #8a1414 100%);
+  margin: 60px;
+  text-align: center;
+  color: #ffffff;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  font-family: "Oswald", sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */
